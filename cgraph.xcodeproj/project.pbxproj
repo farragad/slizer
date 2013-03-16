@@ -19,6 +19,7 @@
 		7A39E8CF16F4E5E000983292 /* DijkstraSparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8CD16F4E5E000983292 /* DijkstraSparse.cpp */; };
 		7A39E8D216F4EC0A00983292 /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8D016F4EC0A00983292 /* Prim.cpp */; };
 		7A39E8D516F4EC5200983292 /* PrimSparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8D316F4EC5200983292 /* PrimSparse.cpp */; };
+		7A39E8D816F4ED9C00983292 /* EulerianPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8D616F4ED9C00983292 /* EulerianPath.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		7A39E8D116F4EC0A00983292 /* Prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prim.h; sourceTree = "<group>"; };
 		7A39E8D316F4EC5200983292 /* PrimSparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimSparse.cpp; sourceTree = "<group>"; };
 		7A39E8D416F4EC5200983292 /* PrimSparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimSparse.h; sourceTree = "<group>"; };
+		7A39E8D616F4ED9C00983292 /* EulerianPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EulerianPath.cpp; sourceTree = "<group>"; };
+		7A39E8D716F4ED9C00983292 /* EulerianPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulerianPath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				7A39E8CD16F4E5E000983292 /* DijkstraSparse.cpp */,
 				7A39E8CE16F4E5E000983292 /* DijkstraSparse.h */,
 				7A39E8B516F4E09600983292 /* TopologicalSort.cpp */,
+				7A39E8D616F4ED9C00983292 /* EulerianPath.cpp */,
+				7A39E8D716F4ED9C00983292 /* EulerianPath.h */,
 				7A39E8A916F4DC7900983292 /* BreadthFirstSearch.cpp */,
 				7A39E8B216F4DF6E00983292 /* DepthFirstSearch.cpp */,
 				7A39E8B816F4E10300983292 /* ConnectedComponents.cpp */,
@@ -168,6 +173,7 @@
 				7A39E8CF16F4E5E000983292 /* DijkstraSparse.cpp in Sources */,
 				7A39E8D216F4EC0A00983292 /* Prim.cpp in Sources */,
 				7A39E8D516F4EC5200983292 /* PrimSparse.cpp in Sources */,
+				7A39E8D816F4ED9C00983292 /* EulerianPath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
