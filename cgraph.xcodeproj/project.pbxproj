@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A39E8AA16F4DC7900983292 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8A916F4DC7900983292 /* main.cpp */; };
+		7A39E8AA16F4DC7900983292 /* BreadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8A916F4DC7900983292 /* BreadthFirstSearch.cpp */; };
 		7A39E8AC16F4DC7900983292 /* cgraph.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39E8AB16F4DC7900983292 /* cgraph.1 */; };
+		7A39E8B416F4DF6E00983292 /* DepthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8B216F4DF6E00983292 /* DepthFirstSearch.cpp */; };
+		7A39E8B716F4E09600983292 /* TopologicalSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8B516F4E09600983292 /* TopologicalSort.cpp */; };
+		7A39E8BA16F4E10300983292 /* ConnectedComponents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8B816F4E10300983292 /* ConnectedComponents.cpp */; };
+		7A39E8BD16F4E19800983292 /* StronglyConnectedComponents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8BB16F4E19800983292 /* StronglyConnectedComponents.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +30,12 @@
 
 /* Begin PBXFileReference section */
 		7A39E8A616F4DC7900983292 /* cgraph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cgraph; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A39E8A916F4DC7900983292 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A39E8A916F4DC7900983292 /* BreadthFirstSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BreadthFirstSearch.cpp; sourceTree = "<group>"; };
 		7A39E8AB16F4DC7900983292 /* cgraph.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cgraph.1; sourceTree = "<group>"; };
+		7A39E8B216F4DF6E00983292 /* DepthFirstSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DepthFirstSearch.cpp; sourceTree = "<group>"; };
+		7A39E8B516F4E09600983292 /* TopologicalSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TopologicalSort.cpp; path = ../TopologicalSort.cpp; sourceTree = "<group>"; };
+		7A39E8B816F4E10300983292 /* ConnectedComponents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectedComponents.cpp; sourceTree = "<group>"; };
+		7A39E8BB16F4E19800983292 /* StronglyConnectedComponents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StronglyConnectedComponents.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,11 @@
 		7A39E8A816F4DC7900983292 /* cgraph */ = {
 			isa = PBXGroup;
 			children = (
-				7A39E8A916F4DC7900983292 /* main.cpp */,
+				7A39E8B516F4E09600983292 /* TopologicalSort.cpp */,
+				7A39E8A916F4DC7900983292 /* BreadthFirstSearch.cpp */,
+				7A39E8B216F4DF6E00983292 /* DepthFirstSearch.cpp */,
+				7A39E8B816F4E10300983292 /* ConnectedComponents.cpp */,
+				7A39E8BB16F4E19800983292 /* StronglyConnectedComponents.cpp */,
 				7A39E8AB16F4DC7900983292 /* cgraph.1 */,
 			);
 			path = cgraph;
@@ -117,7 +129,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A39E8AA16F4DC7900983292 /* main.cpp in Sources */,
+				7A39E8AA16F4DC7900983292 /* BreadthFirstSearch.cpp in Sources */,
+				7A39E8B416F4DF6E00983292 /* DepthFirstSearch.cpp in Sources */,
+				7A39E8B716F4E09600983292 /* TopologicalSort.cpp in Sources */,
+				7A39E8BA16F4E10300983292 /* ConnectedComponents.cpp in Sources */,
+				7A39E8BD16F4E19800983292 /* StronglyConnectedComponents.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
