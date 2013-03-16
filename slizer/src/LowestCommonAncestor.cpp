@@ -1,7 +1,14 @@
+ //
+//  LowestCommonAncestor.cpp
+//  slizer
+//
+#include <vector>
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
 typedef vector < vector<int> > graph;
 typedef vector<int>::const_iterator const_graph_iter;
-
-
 vector<int> lca_h, lca_dfs_list, lca_first, lca_tree;
 vector<char> lca_dfs_used;
 
@@ -82,13 +89,13 @@ int main()
 {
 	graph g;
 	int root;
-	... чтение графа ...
+	//read in graph
 
 	lca_prepare (g, root);
 
-	for (;;)
+	for (;;) //spec limits
 	{
-		int v1, v2; // поступил запрос
-		int v = lca (v1, v2); // ответ на запрос
+		int v1, v2; 
+		int v = lca (v1, v2); 
 	}
 }
