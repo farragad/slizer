@@ -2,8 +2,44 @@
 //  ArticulationPoints.cpp
 //  cgraph
 //
-//  Created by Sidhanth Venkatasubramaniam on 3/16/13.
-//  Copyright (c) 2013 Sidhanth Venkatasubramaniam. All rights reserved.
-//
+#include <vector>
+#define MAXN 1000000
+using namespace std;
+vector<int> g[MAXN];
+bool used[MAXN];
+int timer, tin[MAXN], fup[MAXN];
 
-#include "ArticulationPoints.h"
+void make_cut(int x)
+{
+    //you decide...
+}
+
+void dfs (int v, int p = -1) {
+	used[v] = true;
+	tin[v] = fup[v] = timer++;
+	int children = 0;
+	for (size_t i=0; i<g[v].size(); ++i) {
+		int to = g[v][i];
+		if (to == p)  continue;
+		if (used[to])
+			fup[v] = min (fup[v], tin[to]);
+		else {
+			dfs (to, v);
+			fup[v] = min (fup[v], fup[to]);
+			if (fup[to] >= tin[v] && p != -1)
+				make_cut(v);
+			++children;
+		}
+	}
+	if (p == -1 && children > 1)
+		make_cut(v);
+}
+
+int main() {
+	int n;
+	//read in nodes
+	timer = 0;
+	for (int i=0; i<n; ++i)
+		used[i] = false;
+	dfs (0);
+}
