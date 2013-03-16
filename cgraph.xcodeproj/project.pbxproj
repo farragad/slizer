@@ -17,6 +17,8 @@
 		7A39E8C916F4E4BB00983292 /* OnlineBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8C716F4E4BB00983292 /* OnlineBridge.cpp */; };
 		7A39E8CC16F4E55600983292 /* Dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8CA16F4E55600983292 /* Dijkstra.cpp */; };
 		7A39E8CF16F4E5E000983292 /* DijkstraSparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8CD16F4E5E000983292 /* DijkstraSparse.cpp */; };
+		7A39E8D216F4EC0A00983292 /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8D016F4EC0A00983292 /* Prim.cpp */; };
+		7A39E8D516F4EC5200983292 /* PrimSparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A39E8D316F4EC5200983292 /* PrimSparse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,10 @@
 		7A39E8CB16F4E55600983292 /* Dijkstra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dijkstra.h; sourceTree = "<group>"; };
 		7A39E8CD16F4E5E000983292 /* DijkstraSparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DijkstraSparse.cpp; sourceTree = "<group>"; };
 		7A39E8CE16F4E5E000983292 /* DijkstraSparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraSparse.h; sourceTree = "<group>"; };
+		7A39E8D016F4EC0A00983292 /* Prim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
+		7A39E8D116F4EC0A00983292 /* Prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prim.h; sourceTree = "<group>"; };
+		7A39E8D316F4EC5200983292 /* PrimSparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrimSparse.cpp; sourceTree = "<group>"; };
+		7A39E8D416F4EC5200983292 /* PrimSparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimSparse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				7A39E8B216F4DF6E00983292 /* DepthFirstSearch.cpp */,
 				7A39E8B816F4E10300983292 /* ConnectedComponents.cpp */,
 				7A39E8BB16F4E19800983292 /* StronglyConnectedComponents.cpp */,
+				7A39E8D016F4EC0A00983292 /* Prim.cpp */,
+				7A39E8D116F4EC0A00983292 /* Prim.h */,
+				7A39E8D316F4EC5200983292 /* PrimSparse.cpp */,
+				7A39E8D416F4EC5200983292 /* PrimSparse.h */,
 			);
 			path = cgraph;
 			sourceTree = "<group>";
@@ -156,6 +166,8 @@
 				7A39E8C916F4E4BB00983292 /* OnlineBridge.cpp in Sources */,
 				7A39E8CC16F4E55600983292 /* Dijkstra.cpp in Sources */,
 				7A39E8CF16F4E5E000983292 /* DijkstraSparse.cpp in Sources */,
+				7A39E8D216F4EC0A00983292 /* Prim.cpp in Sources */,
+				7A39E8D516F4EC5200983292 /* PrimSparse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +266,7 @@
 				7A39E8B116F4DC7900983292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
