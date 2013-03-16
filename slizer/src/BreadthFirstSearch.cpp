@@ -1,6 +1,6 @@
 //
 //  BreadthFirstSearch.cpp
-//  cgraph
+//  slizer
 //
 
 #include <vector>

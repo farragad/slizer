@@ -1,6 +1,6 @@
 //
 //  OnlineBridge.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 #define MAXN 100000

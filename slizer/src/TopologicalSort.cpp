@@ -1,6 +1,6 @@
 //
 //  TopologicalSort.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 #define MAXN 1000000

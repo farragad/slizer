@@ -1,6 +1,6 @@
 //
 //  DepthFirstSearch.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 using namespace std;

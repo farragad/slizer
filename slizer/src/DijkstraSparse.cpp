@@ -1,6 +1,6 @@
 //
 //  DijkstraSparse.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 #include <set>

@@ -1,6 +1,6 @@
 //
 //  PrimSparseMST.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 #include <iostream>

@@ -1,6 +1,6 @@
 //
 //  Dijkstra.cpp
-//  cgraph
+//  slizer
 //
 #include <vector>
 #include <utility>
