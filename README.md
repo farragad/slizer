@@ -16,6 +16,4 @@ slizer is written and maintained by Sidhanth Venkatasubramaniam [sidhanthg].
 Misc
 -------
   - If you want to contribute, just shoot me an email.
-  - If you fork it, please keep this readme file to acknowledge my work on the project. For some reason China-jp's clone of the project (https://github.com/China-jp/slizer) fails to acknowledge that it is a fork
-
-
+  - If you fork it, please keep this readme file to acknowledge my work on the project. 
