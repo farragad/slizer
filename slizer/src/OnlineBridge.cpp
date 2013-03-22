@@ -63,7 +63,7 @@ void merge_path (int a, int b) {
 		}
         
 		if (b != -1) {
-			b = get(b);
+			b = get(b); 
 			vb.push_back(b);
             
 			if (u[b] == cu) {
